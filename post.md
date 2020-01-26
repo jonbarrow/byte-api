@@ -4,7 +4,7 @@
 
 ## Post structure
 
-```json
+```json5
 {
 	"id": "POST_ID",
 	"type": 0,
@@ -31,7 +31,7 @@
 
 ## Comment structure
 
-```json
+```json5
 {
 	"id": "POST_ID-RANDM_ID",
 	"postID": "POST_ID",
@@ -46,7 +46,7 @@
 
 ## Mention structure
 
-```json
+```json5
 {
 	"accountID": "ACCOUNT_ID", // Account ID of person mentioned
 	"username": "username", // mentioned users username
@@ -70,7 +70,7 @@ Increments the posts loop count. Has a rate limit
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"loopCount": 111111,
@@ -87,7 +87,7 @@ Likes/dislikes the post
 
 ### Body
 
-```json
+```json5
 {
 	"postID": "POST_ID"
 }
@@ -100,7 +100,7 @@ Creates a comment on a post
 
 ### Body
 
-```json
+```json5
 {
 	"postID": "POST_ID",
 	"body": "Comment body"
@@ -109,7 +109,7 @@ Creates a comment on a post
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"id": "POST_ID-RANDOM_ID",

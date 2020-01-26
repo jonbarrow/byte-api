@@ -10,7 +10,7 @@ Updates the server on user-made events. Probably to detect bots or API abuse
 
 ### Body
 
-```json
+```json5
 {
 	"eventType": "appOpen",
 	"eventData": {

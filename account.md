@@ -4,7 +4,7 @@
 
 ## Account structure
 
-```json
+```json5
 {
 	"id": "ACCOUNT_ID",
 	"isChannel": Bool,
@@ -33,7 +33,7 @@ Runs a username search
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"accounts": [
@@ -51,7 +51,7 @@ Gets account information for currently logged in user
 
 ### Response
 
-```json
+```json5
 {
 	"data": <Account structure>,
 	"success": 1
@@ -65,7 +65,7 @@ Updates account information for currently logged in user (does not handle profil
 
 ### Body
 
-```json
+```json5
 {
 	"displayName": "Display Name",
 	"colorScheme": 0,
@@ -82,7 +82,7 @@ Gets users posts
 
 ### Body
 
-```json
+```json5
 {
 	{
 	"data": {
@@ -112,7 +112,7 @@ Returns a list of colors
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"colors": [
@@ -135,7 +135,7 @@ Gets list of accounts the current user is following
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"accounts": [
@@ -153,7 +153,7 @@ Gets list of accounts following the current user
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"accounts": [
@@ -171,7 +171,7 @@ Gets list of accounts blocked by the current user
 
 ### Response
 
-```json
+```json5
 {
 	"data": {
 		"accounts": [
@@ -199,7 +199,7 @@ Updates the current device information?
 
 ## Body
 
-```json
+```json5
 {
 	"deviceToken": "token",
 	"deviceType": "type",
@@ -214,7 +214,7 @@ Gets users likes
 
 ### Body
 
-```json
+```json5
 {
 	{
 	"data": {
